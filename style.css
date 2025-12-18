@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    background-color: #212429;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+header {
+   
+    background-color: #ffffff;
+    border-bottom: #212429 1px solid;
+    color: #212429;
+    align-items: center;
+}
+
+body {
+    background-color: #ffffff;
+    color: #212429;
+    width: 100%;
+    
+}
+
+main {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.footsec {
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+
+}
+
+.footsec img {
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding-inline: 10px;    
+}
+    
+
+.collect {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barra-superior {
+    display: flex;
+    justify-content: space-evenly;
+}
+.prenda img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;    
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.precio {
+    font-weight: bold;
+}
+
+.web-showcase {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 15px;
+}
